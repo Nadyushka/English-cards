@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/English-cards/static/css/main.dcd81d2d.css",
+    "main.js": "/English-cards/static/js/main.216f0a13.js",
+    "static/js/787.7136d4b4.chunk.js": "/English-cards/static/js/787.7136d4b4.chunk.js",
+    "static/media/checkEmail.svg": "/English-cards/static/media/checkEmail.cdfba66fde5a43fa07de20848a33be02.svg",
+    "static/media/it-incubator-logo.svg": "/English-cards/static/media/it-incubator-logo.eb69407f5ef9e283c564e57b716d6291.svg",
+    "static/media/cleanFiletetIcon.svg": "/English-cards/static/media/cleanFiletetIcon.80aeda8c186b99afd75db2ba7510c0be.svg",
+    "static/media/deletePack.svg": "/English-cards/static/media/deletePack.b791b8fa7991d0e4e9535dd5338d2caa.svg",
+    "static/media/changePack.svg": "/English-cards/static/media/changePack.5ff1b2254660c240185990abc92201c9.svg",
+    "static/media/edit.svg": "/English-cards/static/media/edit.a169cd90c950b39da314c5bb65c8ed51.svg",
+    "static/media/dounloadPhoto.svg": "/English-cards/static/media/dounloadPhoto.90ad4ef14262e7bebbb5e1c2b2223f5a.svg",
+    "static/media/addPack.svg": "/English-cards/static/media/addPack.24e30f569cc866d8b33cf0ac20c90bdf.svg",
+    "static/media/eye-off.svg": "/English-cards/static/media/eye-off.cae665a627b70e724b35c67236a636a9.svg",
+    "static/media/Star 5.svg": "/English-cards/static/media/Star 5.3b4bf9e4b7c7f7379fdad7a3bfcc9532.svg",
+    "static/media/searchIcon.svg": "/English-cards/static/media/searchIcon.e6e40bf4650bc8982f59bb4ac77b26ae.svg",
+    "index.html": "/English-cards/index.html",
+    "static/media/logout.svg": "/English-cards/static/media/logout.7fd70e5af0ddf6981e08aae9c81edc26.svg",
+    "static/media/backToProfile.svg": "/English-cards/static/media/backToProfile.80fa9754947dabe414f5181c7b26bc2c.svg",
+    "static/media/eye.svg": "/English-cards/static/media/eye.a0e7779d11a558ef0ba69f4ede0d084a.svg",
+    "static/media/myPackMenu.svg": "/English-cards/static/media/myPackMenu.af4e27d9520864ff108afeaca18c97a9.svg",
+    "static/media/arrow.svg": "/English-cards/static/media/arrow.19c7bd8ee7d32ca8451f.svg",
+    "static/media/arrowBack.svg": "/English-cards/static/media/arrowBack.19c7bd8ee7d32ca8451f1de3f6803354.svg",
+    "static/media/select-arrow.svg": "/English-cards/static/media/select-arrow.10ffcf69d2d6f694866d.svg",
+    "main.dcd81d2d.css.map": "/English-cards/static/css/main.dcd81d2d.css.map",
+    "main.216f0a13.js.map": "/English-cards/static/js/main.216f0a13.js.map",
+    "787.7136d4b4.chunk.js.map": "/English-cards/static/js/787.7136d4b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcd81d2d.css",
+    "static/js/main.216f0a13.js"
+  ]
+}
