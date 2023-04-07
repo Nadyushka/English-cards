@@ -1,0 +1,166 @@
+.login {
+  width: 413px;
+  height: 552px;
+  margin: auto;
+
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1), -1px -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+  padding-top: 35px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+.login form {
+  max-width: 347px;
+  margin-top: 41px;
+  padding-left: 33px;
+
+  text-align: left;
+}
+
+.loginInputContainer {
+  position: relative;
+}
+
+.loginInputLabel {
+  display: block;
+
+  margin-bottom: 0;
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.loginInput {
+  cursor: pointer;
+
+  display: block;
+
+  width: 100%;
+  margin-bottom: 5px;
+
+  font-size: 16px;
+  color: #000000;
+
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.loginInputContainer:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.checkBoxContainer {
+  margin: 24px 0 28px;
+}
+
+.loginCheckbox {
+  display: inline-block;
+}
+
+.rememberMeLabel {
+  cursor: pointer;
+
+  margin-left: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: black;
+}
+
+.forgotPasswordContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.forgotPassword {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+
+  width: 100%;
+  height: 36px;
+  margin-top: 50px;
+  padding: 0;
+
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  background: #366eff;
+  border: none;
+  border-radius: 30px;
+  outline: inherit;
+}
+
+.haveAccount {
+  margin: 31px 0 11px;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+
+  opacity: 0.5;
+}
+
+.signUpBox {
+  width: 65px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.signUpLink {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #366eff;
+  text-decoration: underline;
+}
+
+.registrationEye {
+  cursor: pointer;
+
+  position: absolute;
+  top: 18px;
+  right: 0;
+
+  display: inline-block;
+
+  width: 20px;
+}
+
+.error {
+  color: #da0606;
+}

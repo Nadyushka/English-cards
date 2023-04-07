@@ -1,0 +1,44 @@
+.numberOfCards{
+    text-align: left;
+}
+
+.numberOfCards р3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-align: left;
+}
+
+
+.numberOfCards_wrapper {
+    display: flex;
+}
+
+.numberOfCards_minValue, .numberOfCards_maxValue {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numberOfCards_minValue {
+    margin-right: 12px;
+}
+
+.numberOfCards_maxValue {
+    margin-left: 12px;
+}
+

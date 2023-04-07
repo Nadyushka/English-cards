@@ -1,0 +1,60 @@
+.pagination {
+    display: flex;
+    margin: 35px 0;
+    align-items: center;
+    margin-left: -18px;
+}
+
+.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding: 0 5px 0 14px;
+}
+
+.text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding-left: 5px;
+}
+
+.pagination select {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    appearance: none;
+    min-width: 39px;
+    padding-left: 7px;
+    position: relative;
+    min-height: 24px;
+    outline: none;
+}
+
+.pagination .pagination_select{
+    position: relative;
+}
+
+.pagination .pagination_select::after {
+    content:"";
+    background-image: url("./../../../../../common/assets/pictures/select-arrow.svg");
+    width: 8px;
+    background-repeat: no-repeat;
+    height: 5px;
+    display: block;
+    position: absolute;
+    right: 6px;
+    top: 11px;
+}

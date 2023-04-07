@@ -1,0 +1,51 @@
+.popupBox {
+  position: absolute;
+  top: 23px;
+  right: -126px;
+
+  box-sizing: border-box;
+  width: 116px;
+  height: 136px;
+  padding: 20px 10px;
+
+  text-align: left;
+
+  background-color: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 3px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+
+  animation: popupAnimation 0.3s;
+}
+
+.rowItem {
+  display: flex;
+  align-items: center;
+}
+
+.rowItem:not(:last-child) {
+  margin-bottom: 18px;
+}
+
+.learn {
+  cursor: pointer;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+
+  transition: all 0.2s;
+}
+
+.learn:hover {
+  transform: scale(1.25);
+}
+
+@keyframes popupAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

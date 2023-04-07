@@ -1,0 +1,24 @@
+.checkBoxContainer {
+  display: flex;
+  align-items: center;
+
+  margin: 24px 0;
+}
+
+.checkbox {
+  display: inline-block;
+
+  width: 18px;
+  height: 18px;
+}
+
+.rememberMeLabel {
+  cursor: pointer;
+
+  margin-left: 12px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: black;
+}

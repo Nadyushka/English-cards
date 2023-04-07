@@ -1,0 +1,39 @@
+.actionsWithPacks {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: baseline;
+
+  max-width: 50px;
+}
+
+.actionsWithPacks button {
+  padding: 0;
+
+  background-color: white;
+  border: none;
+}
+
+.actionsWithPacks_active {
+  cursor: pointer;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+
+  transition: all 0.2s;
+}
+
+.actionsWithPacks_active:hover {
+  transform: scale(1.25);
+}
+
+.actionsWithPacks_inactive {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+
+  opacity: 0.5;
+}
+
+.actionsWithPacks_inactive:hover {
+}

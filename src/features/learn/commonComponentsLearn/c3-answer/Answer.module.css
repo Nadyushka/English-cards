@@ -1,0 +1,39 @@
+.answer {
+  text-align: left;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.answer_text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+
+.answer_answerText {
+  font-weight: 500;
+  width: 100%;
+  overflow: auto;
+  display: inline-block;
+}
+
+.answer_answerText::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+}
+
+.answer_answerText::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.answer_answerText::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}

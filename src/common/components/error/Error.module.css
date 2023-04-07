@@ -1,0 +1,62 @@
+.errorBox {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 230px;
+  min-height: 60px;
+
+  text-align: center;
+
+  background-color: #da0606;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(1, 1, 1, 0.5);
+
+  animation: errorAnimation;
+  animation-duration: 6s;
+}
+
+.errorMessage {
+  padding: 20px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.closeIcon {
+  cursor: pointer;
+
+  position: absolute;
+  top: 4px;
+  right: 4px;
+
+  width: 13px;
+}
+
+@keyframes errorAnimation {
+  0% {
+    transform: translateY(80px);
+
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+
+    opacity: 1;
+  }
+  90% {
+    transform: translateY(0);
+
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(80px);
+
+    opacity: 0.3;
+  }
+}

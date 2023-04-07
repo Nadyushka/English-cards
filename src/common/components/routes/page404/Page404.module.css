@@ -1,0 +1,32 @@
+.page404 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page404_container {
+    width: 90%;
+    margin: 10% auto;
+}
+
+.page404_body {
+    margin: auto;
+}
+
+.page404_body img {
+    max-width: 348px;
+
+}
+
+.page404_info {
+    margin-top: 20px;
+}
+
+.page404_info p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0;
+}

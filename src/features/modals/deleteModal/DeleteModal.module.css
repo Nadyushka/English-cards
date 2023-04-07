@@ -1,0 +1,36 @@
+.titleBox {
+  padding: 19px 24px;
+
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.title {
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 22px;
+}
+
+.contentBox {
+  padding: 24px 24px;
+}
+
+.contentBox span {
+  display: block;
+
+  margin-bottom: 24px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+.backToPackLists {
+  cursor: pointer !important;
+
+  margin-top: 24px;
+  margin-bottom: 27px;
+
+  text-align: left;
+}
+
+.backToPackLists span {
+  cursor: pointer;
+
+  padding-left: 8px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  color: #000000;
+}
